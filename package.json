@@ -1,0 +1,25 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A four function calculator",
+  "main": "calculator/entry-point.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node cli/cli.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukegil/calculator.git"
+  },
+  "author": "Luke Gilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukegil/calculator/issues"
+  },
+  "homepage": "https://github.com/lukegil/calculator#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "sinon": "^4.3.0"
+  }
+}

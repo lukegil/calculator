@@ -1,6 +1,12 @@
 # calculator
 A four function calculator
 
+## "Just run it" one-liner
+In a clean directory: 
+```
+npm init --yes && npm install https://github.com/lukegil/calculator.git && npm explore calculator -- npm start
+```
+
 ## Requirements
 Node v8.9.1
 ```
